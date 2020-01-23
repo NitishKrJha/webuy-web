@@ -1,0 +1,78 @@
+﻿1.
+
+http://linksynergy.walmart.com/fs-bin/click?id=|LSNID|&offerid=223073.7200&type=14&catid=8&subid=0&hid=7200&tmpid=1082&RD_PARM1=https%253A%252F%252Fwww.walmart.com%252Fip%252FTYLT-Ribbon-4-8A-VPA-microUSB-Cable%252F46406435%253Faffp1%253DdfyPGyg3vnkIFMFIV5pCvR9mCXuBiIE5TMi6hMs4Qk8%2526affilsrc%253Dapi
+Invalid Publisher Code, Offer, or Publisher - Advertiser Partnership Status
+walmart repricer doesnt pull pictures
+takes forever to login to this screen
+==> Walmart has modified some API so i need to change it then it will show all details. You can also check this link (https://developer.walmart.com/#/apicenter/marketPlace/v2#itemManagement) 
+
+It will take 3-4 days to complete.
+
+
+create new product in walmart
+same as geek seller
+only populate fields available in platform connection database
+missing fields will be shown in red frame
+if dont have upc can purchase from upc bank for 0.25$/upc
+upc bar-codes file for example 10,000 upc codes will be in database
+if someone purchase
+the code will be marked as used with information who purchased it, user, what item, etc. (create log)
+and another user cannot use it again.
+each code unique
+for example
+images - will put image links from eBay as default
+categories - will be able to choose category tree from walmart
+start date - will be today
+end date - empty
+price will be eBay price
+etc.
+==> This is realted to add product in walmart same as greekseller. SO , I need greekseller account details. I will mention timing after gettung greekseller account details.
+
+2.platform connection database
+https://www.platformconnection.com/vendor/product
+view - need number in upc code
+need platform connection item number / identifier
+need links to this variation - in all sales channels connected to this products
+a list of links - below the product
+each with price in channel
+quantity limit in channel
+sales of this variation in this channel
+pc identifier e.g. AA 
+option to change quantity in stock in this screen - manually.
+https://dvcom.stitchlabs.com/product/70493958/variant/138085688
+import100@gmail.com
+mauH8RLaWg3E
+dvcom llc ebay - 786 edit / add link to product in marketplace. limit qty in channel. edit. price in channel currency (default usd)  edit. save
+dvcom llc ebay - 854 edit/  add link to product in marketplace
+urbanx ebay - 953 edit / add
+amz - dsfdgf edit / add
+walmart - 999 edit / add
+
+
+3.
+need csv for linked option
+column 1 title
+column 2 PC identifier
+each other column - channel name
+identifier - should be platform connection main identifier
+and under it list of all sales channel it shows on 
+with its sku - with option to add or edit
+and option of csv to link main PC identifier to csv
+
+==> It will take 8 days to complete.
+
+stock need change
+drop down
+increase / decrease by X (qty)
+updated qty in stock  - calculated
+rate - item cost - this batch
+calculated price cost. - calculated avarage
+last price
+cost
+to calculate average cost
+reason note - general internal note
+*** later can see log who changed what when ***
+destroy-what it means? - remove it
+edit - can change all item fields
+delete - change to archive - otherwise will lose item sales history in reports
+

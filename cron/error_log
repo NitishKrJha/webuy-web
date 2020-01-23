@@ -1,0 +1,1 @@
+[14-Jun-2017 00:00:02 UTC] PHP Notice:  Undefined index: HTTP_USER_AGENT in /home/vapserver/public_html/codeigniter/rentingstreet/cron/recurring_cron.php(1) : runtime-created function on line 1

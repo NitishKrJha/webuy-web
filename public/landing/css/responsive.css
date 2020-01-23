@@ -1,0 +1,670 @@
+@charset "utf-8";
+/* CSS Document */
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media only screen and (max-width: 1400px) {
+
+}
+
+@media screen and (max-width: 1199px) {	
+.header_top {
+	padding: 7px 0;
+}
+.header_left_sec p {
+	font-size: 12px;
+}
+.header_right_menu ul li {
+	font-size: 12px;
+	margin-right: 8px;
+}
+.logo {
+	width: 215px;
+	height: 243px;
+	top: -144px;
+}
+.logo img {
+	width: 70%;
+	top: 75%;
+}
+.sidebarIconToggle {
+	top: 26px;
+}
+.menu_brand {
+	top: 21px;
+	left: 45px;
+	font-size: 13px;
+}
+.sidebarMenuInner li {
+	padding: 8px 20px;
+	font-size: 13px;
+}
+#sidebarMenu {
+	margin-top: 8px;
+}
+.main_search_wrap {
+	margin: 17px 0;
+}
+.main_search_sec .form-control {
+	width: 73%;
+	font-size: 13px;
+}
+.sign_up_btn {
+	padding: 6px 13px;
+	margin-top: 16px;
+}
+.sign_up_btn p {
+	font-size: 12px;
+}
+.wallet_bag_sec {
+	margin-top: 13px;
+}
+.wallet_bag_sec ul li {
+	margin-right: 7px;
+	font-size: 13px;
+	line-height: 45px;
+}
+.wallet_bag_icon {
+	width: 45px;
+	height: 45px;
+	line-height: 39px;
+	margin-right: 6px;
+}
+.header_bottom.sticky .logo {
+	width: 209px;
+	height: 247px;
+}
+.header_bottom.sticky .logo img {
+	top: 85%;
+	width: 54%;
+}
+.header_bottom.sticky .main_search_wrap {
+	margin: 15px 0;
+}
+.header_bottom.sticky .sidebarIconToggle {
+	top: 25px;
+}
+.header_bottom.sticky .menu_brand {
+	top: 20px;
+}
+.header_bottom.sticky #sidebarMenu {
+	margin-top: 4px;
+}
+.header_bottom.sticky .sign_up_btn {
+	margin-top: 14px;
+}
+.header_bottom.sticky .wallet_bag_sec {
+	margin-top: 9px;
+}
+.mobile_recharge_bill_wrap {
+	padding: 40px 0;
+}
+.mobile_recharge_bill_title {
+	font-size: 30px;
+	margin: 0 0 30px;
+}
+.mobile_recharge_overlay h4 {
+	font-size: 14px;
+	top: 55px;
+	transform: rotate(-59deg);
+}
+.radio-lst {
+	margin: 0 0 25px;
+}
+.mobile_form_bg {
+	width: 89%;
+}
+.mobile_form_btn {
+	margin: 20px 0 0;
+	padding: 8px 22px;
+}
+.mobile_button_bg {
+	width: 21%;
+	top: 17px;
+	height: 46px;
+}
+.latest_update_container {
+	padding: 30px 20px 40px;
+}
+.latest_updates_img {
+	height: 152px;
+}
+.latest_updates_content h4 {
+	font-size: 14px;
+	padding: 0 0 15px;
+	margin: 0 0 15px;
+	line-height: 22px;
+	min-height: 95px;
+}
+.latest_updates_content h4 span {
+	font-size: 13px;
+	line-height: 19px;
+}
+.latest_updates_content p {
+	font-size: 14px;
+}
+#latest-update-carousel .owl-nav .owl-prev {
+	left: -27px;
+}
+#latest-update-carousel .owl-nav .owl-next {
+	right: -27px;
+}
+.offer_sec_wrap {
+	padding: 20px 0;
+}
+.offer_sec_wrap .tab-content {
+	height: 317px;
+}
+.offer_sec_wrap .nav-pills > li > a {
+	padding: 21px 1px;
+	line-height: 19px;
+	font-size: 12px;
+}
+.offer_sec_wrap .nav-pills > li > a > h4 {
+	font-size: 15px;
+}
+.book_winskart_sec {
+	padding: 20px;
+}
+.book_winskart_sec ul li a {
+	padding: 20px 2px;
+}
+.winskart_title1 {
+	font-size: 17px;
+	margin: 0 0 20px;
+}
+.best_offer_sec {
+	padding: 20px;
+}
+.best_offers_content {
+	padding: 0 8px;
+}
+.best_offers_content h4 {
+	font-size: 13px;
+	line-height: 20px;
+	min-height: 36px;
+}
+.best_offers_content p {
+	font-size: 12px;
+}
+.shipping-wrap {
+	padding: 30px 0;
+}
+.shiping-bx h3 {
+	font-size: 16px;
+	line-height: 22px;
+	padding-bottom: 1px;
+}
+.shiping-bx p {
+	font-size: 13px;
+	line-height: 19px;
+}
+.shiping-bx ul li {
+	min-height: 92px;
+	padding: 10px 0;
+}
+.footer {
+	padding: 40px 0 25px;
+}
+.footer_logo img {
+	width: 180px;
+}
+.disclaimer_sec {
+	width: 93%;
+	padding: 23px 20px;
+}
+.disclaimer_sec h4 {
+	font-size: 20px;
+}
+.disclaimer_sec p {
+	font-size: 13px;
+	line-height: 22px;
+}
+.footer-social {
+	margin: 24px 0 0;
+}
+.footer-social li {
+	margin: 0 4px;
+	width: 45px;
+	height: 45px;
+}
+.footer-bttm ul {
+	margin: 20px 0 0;
+}
+.footer-bttm ul li {
+	padding-right: 7px;
+	margin-right: 7px;
+	font-size: 13px;
+	line-height: 13px;
+}
+.copyright {
+	font-size: 12px;
+	margin: 0;
+}
+/*################## Inner Page #####################*/
+
+/*################## Inner Page #####################*/
+}
+
+@media screen and (max-width: 991px) {	
+.logo {
+	width: 174px;
+	height: 196px;
+	top: -119px;
+}
+.header_top {
+	padding: 5px 0;
+}
+.header_right_menu ul li a span {
+    display: none;
+}
+.header_right_menu ul li a i {
+	display: block;
+	font-size: 19px;
+}
+.wallet_bag_sec {
+	margin-top: 10px;
+}
+.wallet_bag_icon {
+	width: 38px;
+	height: 38px;
+	line-height: 32px;
+	margin-right: 4px;
+}
+.wallet_bag_icon img {
+	display: inline-block;
+	width: 18px;
+}
+.wallet_bag_sec ul li a span {
+	display: none;
+}
+.top_menu_sec {
+	width: 29%;
+}
+.menu_top {
+	height: 56px !important;
+}
+.menu_brand {
+	top: 16px;
+	left: 43px;
+	font-size: 12px;
+}
+.sidebarIconToggle {
+	top: 20px;
+	margin: 0;
+}
+#sidebarMenu {
+	margin-top: 0px;
+}
+.sidebarMenuInner li {
+	padding: 5px 20px;
+	font-size: 12px;
+}
+.main_search_wrap {
+	width: 69%;
+	margin: 12px 0;
+}
+.main_search_sec .form-control {
+	font-size: 12px;
+	padding: 6px 6px 6px 28px;
+	height: 32px;
+}
+.main_search_sec .form-control-submit {
+	height: 32px;
+	left: 8px;
+}
+.main_search_sec .form-control-submit i {
+	font-size: 16px !important;
+}
+.sign_up_btn {
+	padding: 3px 13px;
+	margin-top: 13px;
+}
+.header_bottom.sticky .logo {
+	width: 180px;
+	height: 206px;
+	top: -154px;
+}
+.header_bottom.sticky .main_search_wrap {
+	margin: 12px 0;
+}
+.header_bottom.sticky .sidebarIconToggle {
+	top: 20px;
+}
+.header_bottom.sticky .menu_brand {
+	top: 15px;
+}
+.header_bottom.sticky #sidebarMenu {
+	margin-top: 0;
+}
+.header_bottom.sticky .sign_up_btn {
+	margin-top: 12px;
+}
+.header_bottom.sticky .wallet_bag_sec {
+	margin-top: 8px;
+}
+.feature_menu {
+    display: none;
+}
+.feature_menu_tab_mob {
+    display: block;
+}
+.mobile_recharge_bill_wrap {
+	padding: 26px 0;
+}
+.mobile_recharge_bill_title {
+	font-size: 22px;
+	margin: 0 0 26px;
+}
+.mobile_recharge_bill_form {
+	margin: 0;
+}
+.radio-lst {
+	margin: 0 0 20px;
+}
+.radio-lst li label {
+	font-size: 13px;
+}
+.mobile_recharge_bill_form .form-control {
+	height: 36px;
+	font-size: 13px;
+}
+.mobile_form_bg {
+	height: 40px;
+}
+.mobile_form_btn {
+	margin: 16px 0 0;
+	padding: 6px 16px;
+	font-size: 13px;
+}
+.mobile_button_bg {
+	width: 20%;
+	top: 14px;
+	height: 40px;
+}
+.latest_update_container {
+	padding: 20px;
+}
+.offer_sec_wrap .nav-pills > li > a {
+	padding: 11px 1px;
+	line-height: 16px;
+	font-size: 11px;
+}
+.offer_sec_wrap .nav-pills > li > a > h4 {
+	font-size: 13px;
+}
+.offer_sec_wrap .tab-content {
+	height: 247px;
+}
+.book_winskart_sec {
+	padding: 15px 20px;
+}
+.shiping-bx h3 {
+	font-size: 12px;
+	line-height: 22px;
+	padding-bottom: 0;
+}
+.shiping-bx p {
+	font-size: 12px;
+	line-height: 17px;
+}
+.shiping-bx img {
+	width: 90%;
+}
+.shiping-bx ul li {
+	min-height: 75px;
+}
+.footer {
+	padding: 26px 0 15px;
+}
+.footer_logo img {
+	width: 150px;
+}
+.disclaimer_sec {
+	width: 100%;
+	padding: 15px;
+}
+.footer-bttm ul {
+	margin: 8px 0 0;
+}
+.copyright {
+	font-size: 11px;
+	line-height: 18px;
+}
+.disclaimer_sec h4 {
+	font-size: 15px;
+}
+/*################## Inner Page #####################*/
+
+/*################## Inner Page #####################*/
+}
+
+@media screen and (max-width: 767px) {
+.header_left_sec p {
+	font-size: 13px;
+	text-align: center;
+}
+.header_right_menu {
+	margin-top: 5px;
+}
+.header_right_menu ul {
+	text-align: center;
+}
+.header_right_menu ul li a i {
+	font-size: 22px;
+}
+.logo {
+	height: 49px;
+	margin-top: 12px;
+	position: static;
+	width: 100%;
+	border-radius: 0;
+	border: none;
+	display: inline-block;
+	transform: translateX(0);
+}
+.logo img {
+	width: 180px;
+	top: 0;
+	transform: translateY(0);
+}
+.feature_menu_tab_mob ul li {
+	margin: 0 14px;
+}
+.pull-right {
+	float: none !important;
+}
+.sign_up_btn {
+	padding: 5px 13px;
+	margin-top: 0;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.wallet_bag_sec ul {
+	text-align: center;
+}
+.top_menu_sec {
+	width: 34%;
+}
+.main_search_wrap {
+	width: 64%;
+	margin: 10px 0;
+}
+.main_search_sec .form-control {
+	width: 100%;
+}
+.header_bottom.sticky .logo {
+	width: 100%;
+	height: 49px;
+	top: 0;
+}
+.header_bottom.sticky .logo img {
+	top: 0;
+	width: 180px;
+}
+.header_bottom.sticky .sign_up_btn {
+	display: none;
+}
+.header_bottom.sticky .wallet_bag_sec {
+	display: none;
+}
+.header_bottom.sticky .main_search_wrap {
+	margin: 6px 0;
+}
+.menu_top {
+	height: 44px !important;
+}
+.header_bottom.sticky .sidebarIconToggle {
+	top: 14px;
+}
+.header_bottom.sticky .menu_brand {
+	top: 10px;
+}
+.mobile_recharge_overlay {
+	display: none;
+}
+.mobile_recharge_bill_title {
+	font-size: 17px;
+	margin: 0 0 20px;
+}
+.mobile_form_bg {
+	width: 97%;
+}
+.mobile_form_btn {
+	margin: 10px 0 0;
+}
+.mobile_button_bg {
+	width: 125px;
+	top: 8px;
+}
+#latest-update-carousel .owl-nav .owl-prev {
+	background: rgba(0, 0, 0, 0) url("../images/prev.png") no-repeat scroll left top / 100%;
+	height: 27px;
+	left: -19px;
+	width: 15px;
+}
+#latest-update-carousel .owl-nav [class*="owl-prev"]:hover {
+	background: url(../images/prev.png) no-repeat left top / 100%;
+}
+#latest-update-carousel .owl-nav .owl-next {
+	background: rgba(0, 0, 0, 0) url("../images/next.png") no-repeat scroll right top / 100%;
+	height: 27px;
+	right: -19px;
+	width: 15px;
+}
+#latest-update-carousel .owl-nav [class*="owl-next"]:hover {
+	background: url(../images/next.png) no-repeat right top / 100%;
+}
+.offer_sec_wrap .nav-pills {
+	padding: 0;
+	text-align: center;
+}
+.nav-stacked > li {
+	float: none;
+	display: inline-block;
+	width: 22%;
+	vertical-align: top;
+}
+.offer_sec_wrap .nav-pills > li > a {
+	padding: 6px 1px;
+	line-height: 17px;
+	font-size: 12px;
+	border: 1px solid #c9c9c9;
+	min-height: 60px;
+}
+.offer_sec_wrap .nav-pills > li > a::before {
+	display: none;
+}
+.offer_sec_wrap .nav-pills > li.active > a, .offer_sec_wrap .nav-pills > li.active > a:hover, .offer_sec_wrap .nav-pills > li.active > a:focus {
+	background: #dadada !important;
+}
+.latest_update_sec {
+	padding: 20px 0 0;
+}
+.offer_sec_wrap .tab-content {
+	height: inherit;
+	width: 92%;
+	margin: 0 auto 15px;
+}
+.book_winskart_sec ul li {
+	width: 95%;
+	margin: 0 auto;
+}
+#book-winskart-carousel .owl-nav .owl-prev {
+	left: -20px;
+}
+#book-winskart-carousel .owl-nav .owl-next {
+	right: -20px;
+}
+.best_offer_sec ul li {
+	width: 94%;
+	float: none;
+	margin: 0 auto;
+	border: 1px solid #dadada;
+	padding-bottom: 15px;
+}
+.border-l {
+	border-left: none;
+	border-bottom: 1px solid #ccc;
+}
+.shiping-bx {
+	display: inline-block;
+	width: 100%;
+}
+.disclaimer_sec {
+	padding: 15px 10px;
+}
+.shiping-bx img {
+	width: auto;
+}
+.shipping-wrap {
+	padding: 20px 0 0;
+}
+/*################## Inner Page #####################*/
+
+
+/*################## Inner Page #####################*/
+}
+@media only screen and (max-width: 620px) {
+
+}
+@media only screen and (max-width: 479px) {
+.mobile_form_bg {
+	width: 95%;
+}
+.offer_sec_wrap .nav-pills > li > a {
+	min-height: 80px;
+}
+
+
+}
+@media only screen and (max-width: 414px) {
+
+}
+@media only screen and (max-width: 412px) {
+
+}
+@media only screen and (max-width: 375px) {
+.mobile_form_bg {
+	width: 93%;
+}
+.offer_sec_wrap .nav-pills > li > a {
+	min-height: 85px;
+}
+
+}
+@media only screen and (max-width: 360px) {
+
+}
+@media only screen and (max-width: 320px) {
+.mobile_form_bg {
+	width: 92%;
+}
+.offer_sec_wrap .nav-pills > li > a {
+	min-height: 100px;
+}
+
+}
+
+

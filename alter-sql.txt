@@ -1,0 +1,4 @@
+ALTER TABLE `customer`  ADD `age_range` ENUM('<18','19-40','40-60','>60') NOT NULL DEFAULT '19-40'  AFTER `zipcode`,  ADD `profession` VARCHAR(100) NOT NULL DEFAULT ''  AFTER `age_range`;
+
+
+ALTER TABLE `customer` ADD `dob` DATE NOT NULL AFTER `zipcode`;
