@@ -12,12 +12,6 @@ class Template extends CI_Controller {
     }
     function index()
 	{
-
-
-
-       
-
-		
 		$this->functions->checkAdmin($this->controller.'/',true);
 		
 		$config['base_url'] 			= base_url($this->controller."/index/");

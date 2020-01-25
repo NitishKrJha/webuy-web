@@ -38,7 +38,7 @@
                                 <div class="panel panel-primary">
                                     <div class="panel-body">
                                         <h4 class="m-t-0 m-b-30 pull-left">List</h4>
-                                        <div class="pull-right"><a title="add member" href="<?php echo $add_link; ?>"><i class="fa fa-plus"></i></a></div>
+                                        <!-- <div class="pull-right"><a title="add member" href="<?php echo $add_link; ?>"><i class="fa fa-plus"></i></a></div> -->
                                         <div class="table-rep-plugin">
                                             
                                             <div class="table-responsive b-0" data-pattern="priority-columns">
@@ -71,9 +71,9 @@
                                                             <td class=" "><?php echo date('d-m-Y',strtotime($singleRecord['created_date'])); ?></td>
                                                             <td><a href="javascript:ChangeStatus('<?php echo $singleRecord['status']==1?$inacttivedLink:$activeLink;?>');"><button class="btn btn-<?php echo $singleRecord['status']=='1'?'info':'danger';?> btn-xs" type="button"><?php echo $singleRecord['status']==1?'Active':'InActive';?></button></a></td>
                                                             <td class=" last"><a href="<?php echo $ediLink; ?>" title="Edit"><i class="fa fa-pencil" aria-hidden="true"></i></a>||
-                                                         <a href="<?php echo base_url('customer/viewdetails/'.$singleRecord['customer_id']) ?>" title="View"><i class="fa fa-eye" aria-hidden="true"></i></a>||
-                                                         <a href="javascript:void(0)" onclick="deletecustomer('<?php echo base_url('customer/delete/'.$singleRecord['customer_id']); ?>')" title="Delete"><i class="fa fa-trash-o" aria-hidden="true"></i></a>||
-                                                          <a href="<?php echo $pwd_link; ?>" title="Change Password"><i class="fa fa-key" aria-hidden="true"></i></a></td>
+                                                         <a href="<?php echo base_url('customer/viewdetails/'.$singleRecord['customer_id']) ?>" title="View"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                                         <!-- <a href="javascript:void(0)" onclick="deletecustomer('<?php echo base_url('customer/delete/'.$singleRecord['customer_id']); ?>')" title="Delete"><i class="fa fa-trash-o" aria-hidden="true"></i></a>|| -->
+                                                          <!-- <a href="<?php echo $pwd_link; ?>" title="Change Password"><i class="fa fa-key" aria-hidden="true"></i></a></td> -->
                                                         </tr>
                                                       <?php  $i++; } 
                                                         }else{ echo '<tr><td colspan="7" align="center">No Record Added Yet.</td></tr>'; }

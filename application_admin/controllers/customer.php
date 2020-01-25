@@ -15,11 +15,8 @@ class Customer extends CI_Controller {
 	{
 
 		$UserID = $this->nsession->userdata('admin_session_id');
-		$name=customer;
+		$name='customer';
 		$for=0;
-		$y=$this->functions->acc_permission_r($UserID,$name,$for);
-
-		if($y==1){
 		$this->functions->checkAdmin($this->controller.'/',true);
 		
 		$config['base_url'] 			= base_url($this->controller."/index/");
@@ -79,11 +76,6 @@ class Customer extends CI_Controller {
 		
 		$this->layout->setLayout('layout_main_view'); 
 		$this->layout->multiple_view($elements,$element_data);
-		}
-		else{
-			$this->nsession->set_userdata('errmsg','You are Not Authorized to Access this Option.');
-			redirect(base_url($this->user));
-		}
 	
 	}
 	

@@ -59,7 +59,7 @@
                                                           $pwd_link= str_replace('{{ID}}', $singleRecord['id'], $pwd_link);
                                                           $activeLink = str_replace('{{ID}}',$singleRecord['id'],$activated_link);
                                                             $inacttivedLink = str_replace('{{ID}}',$singleRecord['id'],$inacttived_Link);
-                                                             $deleteLink = str_replace('{{ID}}', $row['id'], $delete_link);
+                                                            //  $deleteLink = str_replace('{{ID}}', $singleRecord['id'], $delete_link);
                                                         ?>
                         <tr class="<?php echo $i%2==0?'even':'odd'; ?> pointer">
                         <td class=" "><?php echo $i+$startRecord; ?></td>

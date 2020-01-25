@@ -33,12 +33,12 @@ $action = $this->uri->segment(2);
                 </ul>
             </li>
             <?php */ ?>
-            <li class="has_sub"> <a href="javascript:void(0);" class="waves-effect <?php echo ($controller=='category')?'active subdrop':''; ?>"><i class="mdi mdi-album"></i> <span> Category </span> <span class="pull-right"><i class="mdi mdi-plus"></i></span></a>
+            <li class="has_sub"> <a href="javascript:void(0);" class="waves-effect <?php echo ($controller=='category')?'active subdrop':''; ?>"><i class="fa fa-list-alt"></i> <span> Category </span> <span class="pull-right"><i class="mdi mdi-plus"></i></span></a>
                 <ul class="list-unstyled">
-                    <li><a href="<?php echo base_url('category/index/0/1'); ?>">Level1</a></li>
-                    <li><a href="<?php echo base_url('category/level2/0/1'); ?>">Level2</a></li>
-                    <li><a href="<?php echo base_url('category/level3/0/1'); ?>">Level3</a></li>
-                    <li><a href="<?php echo base_url('category/level4/0/1'); ?>">Level4</a></li>
+                    <li><a href="<?php echo base_url('category/index/0/1'); ?>">Category 1</a></li>
+                    <li><a href="<?php echo base_url('category/level2/0/1'); ?>">Category 2</a></li>
+                    <!-- <li><a href="<?php echo base_url('category/level3/0/1'); ?>">Level3</a></li>
+                    <li><a href="<?php echo base_url('category/level4/0/1'); ?>">Level4</a></li> -->
                 </ul>
             </li>
             <li class="has_sub"> <a href="javascript:void(0);" class="waves-effect <?php echo ($controller=='content')?'active subdrop':''; ?>"><i class="mdi mdi-album"></i> <span> CMS </span> <span class="pull-right"><i class="mdi mdi-plus"></i></span></a>

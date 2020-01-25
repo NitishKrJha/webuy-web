@@ -79,10 +79,16 @@
                                                                 $imagepath =  $singleRecord['smimagepath'];
                                                             }
 
+                                                            if($imagepath==''){
+                                                                $imagepath = file_upload_base_url().'images/no_image.png';
+                                                            }else{
+                                                                $imagepath = front_base_url()."uploads/product/".$imagepath;
+                                                            }
+
                                                         ?>
                                                         <tr class="<?php echo $i%2==0?'even':'odd'; ?> pointer">
                                                             <td class=" "><?php echo $i+$startRecord; ?></td>
-                                                            <td class=" "><img src = "<?php echo front_base_url()."uploads/product/".$imagepath; ?>"></td>
+                                                            <td class=" "><img src = "<?php echo $imagepath; ?>" style="width: 50px; height: 50px;"></td>
                                                             <td class=" "><?php echo $singleRecord['title']; ?><br>
                                                             <a href="<?php echo $ediLink; ?>" title="Edit"><i class="fa fa-pencil" aria-hidden="true"></i>Edit</a>    
                                                         </td>

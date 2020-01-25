@@ -314,9 +314,9 @@ class ModelProduct extends CI_Model {
 		if($page > 0 && $page < $config['total_rows'] )
 			$start = $page;
 			$this->db->select('product.*,product_images.path as imagepath,product_images.path_sm as smimagepath,product_images.type');
-			$this->db->join('product_images','product_images.product_id=product.product_id','right');
+			$this->db->join('product_images','product_images.product_id=product.product_id AND product_images.type="main"','Left Outer');
 			//$this->db->where('product.first_name !=','Administrator');
-			$this->db->where('product_images.type','main');
+			$this->db->where('product.product_id >',0);
 			if(isset($sessionDataArray['searchField'])){
 				$this->db->like($sessionDataArray['searchField'],$sessionDataArray['searchString'],'both');
 			}

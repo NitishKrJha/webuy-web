@@ -291,7 +291,7 @@
                                         <div class="form-group">
                                             <label class="control-label col-sm-3">Tags</label>
                                             <div class="col-sm-9">
-                                                <input type="text" name="tag" id="tag" class="form-control tagsinput-typeahead" placeholder="" required="required" value="<?php echo !empty($product['tag'])?$product['tag']:''; ?>" /> 
+                                                <input type="text" name="tag" id="tag" class="form-control tagsinput-typeahead" placeholder=""  value="<?php echo !empty($product['tag'])?$product['tag']:''; ?>" /> 
                                                 <p><small>Press enter after type tags</small></p>                           
                                             </div>
                                         </div>
@@ -410,11 +410,11 @@
                                         <div class="form-group">
                                             <label class="control-label col-sm-3">GST (%)<em></em></label>
                                             <div class="col-sm-9">
-                                                <input type="number" step="0.01" name="gst" id="gst" class="form-control" value="<?php echo !empty($product['gst'])?$product['gst']:''; ?>" placeholder="" />
+                                                <input type="number" step="0.01" name="gst" id="gst" class="form-control" value="<?php echo !empty($product['gst'])?$product['gst']:'18'; ?>" placeholder="" />
                                             </div>
                                         </div>
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">Quantity</label>
+                                            <label class="control-label col-sm-3">Quantity<em>*</em></label>
                                             <div class="col-sm-9">
                                                 <input type="number" step="0.01" name="quantity" id="quantity" class="form-control" placeholder="" required="required" value="<?php echo !empty($product['quantity'])?$product['quantity']:''; ?>" />                            
                                             </div>
@@ -422,19 +422,19 @@
                                         <div class="form-group">
                                             <label class="control-label col-sm-3">Shipping Cost</label>
                                             <div class="col-sm-9">
-                                                <input type="number" step="0.01" name="shipping_cost" id="shipping_cost" class="form-control" placeholder="" required="required" value="<?php echo !empty($product['shipping_cost'])?$product['shipping_cost']:''; ?>" />                            
+                                                <input type="number" step="0.01" name="shipping_cost" id="shipping_cost" class="form-control" placeholder="" value="<?php echo !empty($product['shipping_cost'])?$product['shipping_cost']:''; ?>" />                            
                                             </div>
                                         </div>                       
-                                        <div class="form-group">
-                                            <label class="control-label col-sm-3">SKU  <em>*</em></label>
+                                        <!-- <div class="form-group">
+                                            <label class="control-label col-sm-3">SKU</label>
                                             <div class="col-sm-9">
-                                                <input type="text" name="sku" id="sku" class="form-control" placeholder="" disabled="disabled" value="<?php echo !empty($product['sku'])?$product['sku']:''; ?>" />    
+                                                <input type="text" name="sku" id="sku" class="form-control" placeholder="" value="<?php echo !empty($product['sku'])?$product['sku']:''; ?>" />    
                                             </div>
-                                        </div>                     
+                                        </div>                      -->
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">UPC  <em>*</em></label>
+                                            <label class="control-label col-sm-3">UPC </label>
                                             <div class="col-sm-9">
-                                                <input type="text" name="upc" id="upc" class="form-control" placeholder="" required="required" value="<?php echo !empty($product['upc'])?$product['upc']:''; ?>" />    
+                                                <input type="text" name="upc" id="upc" class="form-control" placeholder="" value="<?php echo !empty($product['upc'])?$product['upc']:''; ?>" />    
                                             </div>
                                         </div>                   
                                         <!-- <div class="form-group">
@@ -1055,7 +1055,7 @@
 $('#sale_price, #purchase_price').blur(function(){    
      var sale_price = parseFloat($('#sale_price').val());
      var purchase_price = parseFloat($('#purchase_price').val());
-     if(sale_price>0 && purchase_price>0 && sale_price > purchase_price){
+     if(sale_price>0 && purchase_price>0 && sale_price < purchase_price){
        messagealert('Error','The sale price: Should not be greater than purchase price.','error');
        $('#sale_price').val('');
      }
